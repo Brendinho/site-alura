@@ -2,3 +2,10 @@ body{
     background-color: #383D58;
     color: white;
 }
+.escola-imagem{
+    width: 30%;
+}
+
+.escola{
+  background-image: linear-gradient(#383D58, #00c0ebd0);
+}
