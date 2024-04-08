@@ -1,11 +1,44 @@
-body{
-    background-color: #383D58;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.jk {
+    background-color: #424E61;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.jk.jpeg{
+    width: 20%;
+}
+
+.jk{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
 .escola-imagem{
-    width: 30%;
+    width:20%;
 }
 
 .escola{
-  background-image: linear-gradient(#383D58, #00c0ebd0);
+    background-image: linear-gradient(#383D58, #00c0eb);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-conteudo{
+    width: 35%;
+
+}
+.escola-titulo{
+    padding: 24px 0;
+
 }
